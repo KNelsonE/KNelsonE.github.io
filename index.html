@@ -14,8 +14,14 @@
     <div class="header">
             <h1>Beneath The Shell</h1>
         </div>
-
-        <div class="container-fluid">
+    <div id="image"></div>
+            <script>
+                var img = document.createElement("img");
+                img.src = "6pic.jpg";
+                var div = document.getElementById("image");
+                div.appendChild(img);
+            </script>
+    </div>
 
         <div class="section">
             <p>Turtles dig burrows, disperse seeds, create and modify habitats, and they affect food webs and mineral cycling.
@@ -27,15 +33,6 @@
                     <a href="page2.html" class="button">Turtle Photography</a>
                     <a href="page1.html" class="button">Turtle Toys</a>
             </nav>
-
-        <div id="image"></div>
-                <script>
-                    var img = document.createElement("img");
-                    img.src = "6pic.jpg";
-                    var div = document.getElementById("image");
-                    div.appendChild(img);
-                </script>
-        </div>
         </div>
     </body>
 </html>
