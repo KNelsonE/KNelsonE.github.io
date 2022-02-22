@@ -6,11 +6,9 @@ body {
     line-height: 1.5;
     margin: 0;
     text-align: center;
-    height: 100%;
-}
-
-html {
-    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container-fluid {
@@ -51,16 +49,3 @@ html {
     margin: 4px 2px;
     cursor: pointer;
 }
-
-.bg {
-    /* The image used */
-    background-image: url("6pic.jpg");
-
-    /* Full height */
-    height: 100%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
