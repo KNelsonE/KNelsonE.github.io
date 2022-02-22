@@ -21,6 +21,7 @@ body {
     color: #0A3834;
     font-size: 5rem;
     margin-bottom: 10rem;
+    margin-top: -100px;
     padding: 2rem 1rem;
     text-align: center;
 }
