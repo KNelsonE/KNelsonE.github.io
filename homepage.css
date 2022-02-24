@@ -49,6 +49,14 @@ body {
     cursor: pointer;
 }
 
+.basicButton {
+    width:300px;
+}
+
+.redButton {
+    width:300px;
+    background-color:#16B3C1;
+}
 .img-fluid {
     background: url(turtle-texture.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
