@@ -20,7 +20,8 @@ body {
 .header {
     background-color: #31ACA0;
     color: #0A3834;
-    font-size: 5rem;
+    font-size: 10rem;
+    font-family: papyrus;
     margin-bottom: 10rem;
     padding: 2rem 1rem;
     text-align: center;
