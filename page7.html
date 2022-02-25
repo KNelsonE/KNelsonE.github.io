@@ -29,7 +29,7 @@
             This POV video of Bonaire snorkeling was produced by SNORKELINGDIVES.COM in March 2014.
             </p>
 
-    <iframe id="existing-iframe-example"
+    <iframe id="snorkelVideo"
         width="560" height="315"
         src="https://www.youtube.com/embed/3usWXHpVUIk?enablejsapi=1"
         title=" YouTube video player"
@@ -46,7 +46,7 @@
 
     var player;
     function onYouTubeIframeAPIReady() {
-        player = new YT.Player('existing-iframe-example', {
+        player = new YT.Player('snorkelVideo', {
             events: {
             'onReady': onPlayerReady,
             'onStateChange': onPlayerStateChange
@@ -54,7 +54,7 @@
         });
     }
     function onPlayerReady(event) {
-        document.getElementById('existing-iframe-example').style.borderColor = '#FF6D00';
+        document.getElementById('snorkelVideo').style.borderColor = '#FF6D00';
     }
     function changeBorderColor(playerStatus) {
         var color;
@@ -72,7 +72,7 @@
         color = "#FF6DOO"; // video cued = orange
         }
         if (color) {
-        document.getElementById('existing-iframe-example').style.borderColor = color;
+        document.getElementById('snorkelVideo').style.borderColor = color;
         }
     }
     function onPlayerStateChange(event) {
