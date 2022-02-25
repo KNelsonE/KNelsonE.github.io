@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!-- Bootstrap CSS and Bundle with Popper-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="homepage.css" rel="stylesheet">
+        <!-- Required meta tags -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Take A Turtle Home</title>
+        <a href= "index.html" class="button">HOME</a>
+    </head>
+    <body>
+    <div class="header">
+            <h1><b>Take A Turtle Home</b></h1>
+            <h2>Discover More</h2>
+        </div>
+
+    <div class="container-fluid">
+        <nav>
+            <a href="page5.html" class="button">Conservation</a>
+            <a href="page4.html" class="button">Snorkel Encounters</a>
+            <a href="page2.html" class="button">Turtle Photography</a>
+            <a href="page1.html" class="button">Turtle Toys</a>
+        </nav>
+
+    <div class="img-fluid">
+        <div id="image"></div>
+            <script>
+                var img = document.createElement("img");
+                img.src = "4pic.jpg";
+                var div = document.getElementById("image");
+                div.appendChild(img);
+            </script>
+            </div>
+    <div class="section">
+            <p>
+                Should I own a turtle? Wondering what you can expect and what is involved in their care?
+                Below are great resources to help you make a decision that fits your family
+                and inform you on the best places to find your next lovable pal.
+            </p>
+        <nav>
+            <a href="https://www.humanesociety.org/news/thinking-getting-pet-turtle" class="buttonBottom">The Humane Society</a>
+            <a href="https://www.allturtles.com/turtle-adoption/" class="buttonBottom">Adopt A Turtle</a>
+            <a href="https://petkeen.com/where-to-buy-a-pet-turtle/" class="buttonBottom">PetKeen</a>
+            <a href="https://www.tortoisetown.com/aquatic-turtles-for-sale/" class="buttonBottom">Tortoise Town</a>
+        </nav>
+        </div>
+    </div>
+    </body>
+</html>
