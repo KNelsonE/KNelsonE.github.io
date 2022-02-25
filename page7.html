@@ -28,8 +28,51 @@
             Lac Bay, Karpata, Calabas, 18 Palms and Bari Reef.
             This POV video of Bonaire snorkeling was produced by SNORKELINGDIVES.COM in March 2014.
             </p>
-            <iframe width="560" height="315" src="<iframe width="560" height="315" src="https://www.youtube.com/embed/3usWXHpVUIk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </iframe>
+
+    <div id="player"></div>
+
+    <script>
+        // loads the IFrame Player API code
+        var tag = document.createElement('script');
+
+        tag.src = "https://www.youtube.com/embed/3usWXHpVUIk";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        //create an <iframe> (and YouTube player)after the API code downloads
+        var player;
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player('player', {
+                height: '390',
+                width: '640',
+                videoId: 'M7lc1UVf-VE',
+                playerVars: {
+                  'playsinline': 1
+                },
+                events: {
+                  'onReady': onPlayerReady,
+                  'onStateChange': onPlayerStateChange
+             }
+        });
+    }
+
+        // API calls function when the video player is ready.
+        function onPlayerReady(event) {
+         event.target.playVideo();
+    }
+
+        // 5. API calls this function when the player's state changes.
+        var done = false;
+        function onPlayerStateChange(event) {
+            if (event.data == YT.PlayerState.PLAYING && !done) {
+                setTimeout(stopVideo, 6000);
+                done = true;
+        }
+      }
+        function stopVideo() {
+            player.stopVideo();
+      }
+    </script>
         </div>
     </div>
     </body>
