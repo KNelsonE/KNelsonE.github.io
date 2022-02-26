@@ -33,7 +33,8 @@ body {
 
 .section:hover {
     background-color: #0CE048;
-    transition: color 3s ease-in-out, background-color 0.20s ease-in-out;
+    transition: color 5s ease-in-out, background-color 0.25s ease-in-out;
+    visibility: visible;
 }
 
 .button {
