@@ -32,7 +32,7 @@ body {
 }
 
 .section:hover {
-    background-color: #0CE048;
+    background-color: #1899CC;
     transition: color 5s ease-in-out, background-color 0.25s ease-in-out;
 }
 
