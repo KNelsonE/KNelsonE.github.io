@@ -22,4 +22,4 @@ At the top of the page just above the header is the "HOME" button. This is text 
 ## Project status:
 I view this site as completed for the purpose of the CS50 final project, but I plan to continue adding and changing this website as I learn more later.
 ## Acknowledgements:
-Gratitude must be expressed for the information provided in research by the Sea Turtle Conservancy, WWF, and Oceanic Society. Also, my dear friend Starrina works for NOAA and suggested the inclusion of their website which features not just fun facts, but information about the Endangered Species Act.
+Gratitude must be expressed for the information provided in research by the Sea Turtle Conservancy, WWF, and Oceanic Society. Also, my dear friend Starrina works for NOAA and suggested the inclusion of their website which features not just fun facts, but information about the Endangered Species Act. https://www.fisheries.noaa.gov/contact/starrina-starr
